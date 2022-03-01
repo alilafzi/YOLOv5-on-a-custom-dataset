@@ -1,2 +1,5 @@
 # YOLOv5 on a custom dataset
-A simple demo of YOLOv5 implementation to train and test a custom dataset is presented.
+
+## Referenes
+https://github.com/ultralytics <br>
+https://gist.github.com/Amir22010/a99f18ca19112bc7db0872a36a03a1ec
