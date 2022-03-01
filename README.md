@@ -30,8 +30,8 @@ By doing this, a new folder named "runs" is created within the "yolov5" folder t
 
 ## Inference
 To use the trained model from the above example for running inference on the test images, we run the "detect.py" code inside the "yolov5" folder with the following arguments: <br><br>
-python detect.py --source 'complete absolute path to the test images' --weights 'runs/train/exp/weights/best.pt' <br><br>
-This will then create a new folder containing the test images with the predicted bounding boxes on different objects that has the following path relative to the "yolov5" folder:< br><br>
+python detect.py --source 'complete absolute path to the folder having test images' --weights 'runs/train/exp/weights/best.pt' <br><br>
+This will then create a new folder containing the test images with the predicted bounding boxes on different objects that has the following path relative to the "yolov5" folder: <br><br>
  runs/detect/exp
 
 ## Referenes
