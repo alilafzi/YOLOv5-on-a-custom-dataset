@@ -4,7 +4,7 @@
 The provided annotations are in Pascal VOC .xml format and need to be converted to YOLO compatible .txt files accordingly. We use "convert_voc_to_yolo.py" for this purpose. We put all the training images and their corresponding annotations in a new subfolder within the main folder where the aforementioned .py file is located. On line 8 of the code, we insert the name of the folder containing the images and annotations. After running the code in the terminal, a new subfolder named "yolo" inside the folder with images and annotations is created that contains the corresponding .txt annotation files in YOLO format. <br>
 
 ## YOLOv5 installation
-Within our main working directory, we clone the YOLOv5 GitHub repository and install its requirements by running the following commands in the terminal: <br>
+Within our main working directory, we clone the YOLOv5 GitHub repository and install its requirements by running the following commands in the terminal: <br><br>
 git clone https://github.com/ultralytics/yolov5  <br>
 cd yolov5 <br>
 pip install -r requirements.txt  <br>
