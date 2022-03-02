@@ -5,9 +5,11 @@ The provided annotations are in Pascal VOC .xml format and need to be converted 
 
 ## YOLOv5 installation
 Within our main working directory, we clone the YOLOv5 GitHub repository and install its requirements by running the following commands in the terminal: <br><br>
-git clone https://github.com/ultralytics/yolov5  <br>
-cd yolov5 <br>
-pip install -r requirements.txt  <br>
+```
+git clone https://github.com/ultralytics/yolov5  
+cd yolov5 
+pip install -r requirements.txt 
+```
 
 ## Split the data into training and validation sets
 Inside the "yolov5" folder, we add "train_val_split.py" and create a new subfolder called "datasets". Within this new "datasets" folder, we create a new subfolder (name it "images_annotations" for example) and copy all the training images with their new .txt annotation files into it. Now, we go back to the "yolov5" folder and run "train_val_split.py" to randomly split the data into training and validation sets. Before running this code, we need to modify line 10 of it, where we have to put the complete absolute path to the "datasets" folder we just created. Next, we can run this code in the terminal inside "yolov5" folder that should take 3 parser arguments: <br><br>
