@@ -40,7 +40,7 @@ To use the trained model from the above example for running inference on the tes
 python detect.py --source 'complete absolute path to the folder having test images' --weights 'runs/train/exp/weights/best.pt'
 ```
 This will then create a new folder containing the test images with the predicted bounding boxes on different objects that has the following path relative to the "yolov5" folder: <br><br>
- runs/detect/exp
+ "runs/detect/exp"
 
 ## Referenes
 https://github.com/ultralytics/yolov5 <br>
